@@ -1,62 +1,17 @@
-import java.util.Scanner;
+<h1 align="center">Hi 👋, Eu sou Adriel Batista</h1>
+<h3 align="center">Apaixonado por T.I, sigo em busca de conhecimento na área de desenvolvimento.</h3>
 
-public class SeleçãoDeBandeira {
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/adriel-batista-561659338/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/adriel-batista-561659338/" height="30" width="40" /></a>
+<a href="https://instagram.com/@adriel_battista" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@adriel_battista" height="30" width="40" /></a>
+</p>
 
-    /**
-     * Identifica a bandeira de um cartão de crédito com base no número do cartão.
-     *
-     * @param numeroCartao O número do cartão de crédito como uma String.
-     * @return A bandeira do cartão (ex.: Visa, MasterCard, etc.) ou "Bandeira desconhecida" se não for reconhecida.
-     */
-    public static String identificarBandeira(String numeroCartao) {
-        if (numeroCartao.startsWith("4")) {
-            return "Visa";
-        } else if (numeroCartao.startsWith("5")) {
-            return "MasterCard";
-        } else if (numeroCartao.startsWith("3") && (numeroCartao.charAt(1) == '4' || numeroCartao.charAt(1) == '7')) {
-            return "American Express";
-        } else if (numeroCartao.startsWith("6")) {
-            return "Discover";
-        } else {
-            return "Bandeira desconhecida";
-        }
-    }
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
 
-    /**
-     * Método principal para testar a identificação da bandeira do cartão.
-     *
-     * @param args Argumentos da linha de comando (não utilizados neste exemplo).
-     */
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=adrielbatista11&show_icons=true&locale=en&layout=compact" alt="adrielbatista11" /></p>
 
-        while (true) {
-            // Solicita ao usuário que insira o número do cartão
-            System.out.print("Digite o número do cartão de crédito (16 dígitos) ou 'sair' para encerrar: ");
-            String numeroCartao = scanner.nextLine();
-
-            // Verifica se o usuário deseja encerrar o programa
-            if (numeroCartao.equalsIgnoreCase("sair")) {
-                System.out.println("Encerrando o programa...");
-                break;
-            }
-
-            // Valida se o número do cartão contém exatamente 16 dígitos
-            if (numeroCartao.length() != 16 || !numeroCartao.matches("\\d+")) {
-                System.out.println("Número inválido! Certifique-se de digitar exatamente 16 dígitos.");
-                continue;
-            }
-
-            // Identifica a bandeira do cartão
-            String bandeira = identificarBandeira(numeroCartao);
-
-            // Exibe a bandeira identificada no console
-            System.out.println("A bandeira do cartão é: " + bandeira);
-        }
-
-        scanner.close();
-    }
-}
 <!---
 AdrielBatista11/AdrielBatista11 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
