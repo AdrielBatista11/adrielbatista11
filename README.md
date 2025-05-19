@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, Eu sou Adriel Batista</h1>
+<h1 align="center">Eu sou Adriel Batista</h1>
 <h3 align="center">Apaixonado por T.I, sigo em busca de conhecimento na área de desenvolvimento.</h3>
 
 <h3 align="left">Connect with me:</h3>
